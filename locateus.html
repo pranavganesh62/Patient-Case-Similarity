@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospitals and Doctors for Heart Diseases</title>
+    <style>
+        body {
+            background-image: url('https://t3.ftcdn.net/jpg/07/86/34/68/360_F_786346890_E4BqkCpTHWZg4LIcBnqG2MdyB1Afxz1z.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        h1, h2 {
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        h2 {
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .rib {
+            background-color: #333;
+            overflow: hidden;
+            display: block;
+            width: 615px;
+            margin: 0;
+            padding: 0;
+            height: 60px;
+            overflow: auto;
+            margin: 20px auto;
+            border-radius: 10px; 
+        }
+
+        .rib a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 25px;
+        }
+
+        .rib a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .rib a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        .hospital-container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        .hospital-img {
+            width: 100%; 
+            height: 300px; 
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .address {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        ul {
+            text-align: left;
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+
+        h3 {
+            font-size: 20px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Patient Case Similarity System </h1>
+    </header>
+
+    <section class="hospitals">
+        <div class="rib">
+            <center>
+             <a href="./mainpage.html">Home</a>
+             <a href="./about.html">About Us</a>
+             <a href="./locateus.html">Find a location</a>
+             <a href="./registrationpage.html">Patient Portal</a>
+            </center>
+        </div>
+
+        <div class="hospital-container">
+            <img src="./assets/manipal1.avif" alt="Manipal Hospital" class="hospital-img">
+            <h2>Manipal Hospital</h2>
+            <p class="address">Malleswaram West, Bangalore</p>
+            <h3>Doctors in Manipal Hospital:</h3>
+            <ul>
+                <li>Dr. Prabhakara Shetty Heggunje - Cardiologist</li>
+                <li>Dr. Mohammed Rehan Sayeed - Cardiothoracic Surgeon</li>
+                <li>Dr. Srikanth Vijaysimha - General Surgeon</li>
+            </ul>
+            <h3>Rating: 4.5/5</h3>
+        </div>
+
+        <div class="hospital-container">
+            <img src="./assets/aster.jpeg" alt="Aster Cmi Hospital" class="hospital-img">
+            <h2>Aster Cmi Hospital</h2>
+            <p class="address">Sahakara Nagar, Bangalore</p>
+            <h3>Doctors in Aster Cmi Hospital:</h3>
+            <ul>
+                <li>Dr. Arul D Furtado - Cardiac Surgeon</li>
+                <li>Dr. Ganesh Krishnan Iyer - Cardiothoracic Surgeon</li>
+                <li>Dr. Y M Prashanth - Cardiothoracic and Vascular Surgeon</li>
+            </ul>
+            <h3>Rating: 4/5</h3>
+        </div>
+
+        <div class="hospital-container">
+            <img src="./assets/apollo.jpeg" alt="Apollo Hospital" class="hospital-img">
+            <h2>Apollo Hospital</h2>
+            <p class="address">Bannerghatta Road, Bangalore</p>
+            <h3>Doctors in Apollo Hospital:</h3>
+            <ul>
+                <li>Dr. Raghavendra Chikkatur - Cardiothoracic Surgeon</li>
+                <li>Dr. Umesh Satish Gheewala - Vascular Surgeon</li>
+            </ul>
+            <h3>Rating: 4.5/5</h3>
+        </div>
+
+        <div class="hospital-container">
+            <img src="./assets/trilife.jpeg" alt="Trilife Hospital" class="hospital-img">
+            <h2>Trilife Hospital</h2>
+            <p class="address">Kalyan Nagar, Bangalore</p>
+            <h3>Doctors in Trilife Hospital:</h3>
+            <ul>
+                <li>Dr. Sudhakar P - Cardiologist</li>
+                <li>Dr. Prashant Wankhade - Cardiac Surgeon</li>
+                <li>Dr. Soorampallay Vijay - Cardiologist</li>
+            </ul>
+            <h3>Rating: 4.5/5</h3>
+        </div>
+
+        <div class="hospital-container">
+            <img src="./assets/manipal.jpeg" alt="Manipal Hospital" class="hospital-img">
+            <h2>Manipal Hospital</h2>
+            <p class="address">Millers Road, Bangalore</p>
+            <h3>Doctors in Manipal Hospital:</h3>
+            <ul>
+                <li>Dr. Girish Godbole - Cardiac Surgeon</li>
+                <li>Dr. Praveen Kumar A V - Cardiac Surgeon</li>
+                <li>Dr. G Sridhara - Cardiac Surgeon</li>
+            </ul>
+            <h3>Rating: 4.5/5</h3>
+        </div>
+
+       <div class="hospital-container">
+            <img src="./assets/tathagat.jpeg" alt="Tathagat Heart Hospital" class="hospital-img">
+            <h2>Tathagat Heart Hospital</h2>
+            <p class="address">Crescent Road, Bangalore</p>
+            <h3>Doctors in Tathagat Heart Hospital:</h3>
+            <ul>
+                <li>Dr. Mahantesh R Charantimath - Cardiologist</li>
+            </ul>
+            <h3>Rating: 4/5</h3>
+        </div>
+    </section>
+</body>
+</html>

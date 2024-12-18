@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Patient Case Similarity</title>
+<style>
+body {
+  background-image: url('C:/Users/Dhruv/Desktop/Prerna_capstone/capstone/capstone/assets.jpg');
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+.header-image {
+  width: 100%; /* Full width */
+  height: 720px; /* Maintain aspect ratio */
+  display: block;
+  position: relative; /* Needed for overlay positioning */
+}
+
+.header-text {
+  position: absolute;
+  top: 20%; /* Adjust to position the text vertically */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black; /* Changed to black */
+  text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.6); /* Light shadow for contrast */
+}
+
+.header-text h1 {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.header-text h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.rib {
+  background-color: #333; /* Hospital-theme blue */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  max-width: 615px;
+  height: 60px;
+  position: absolute;
+  top: 70%; /* Align with the full image */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.rib a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.rib a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.rib a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+</head>
+<body>
+<br/>
+<div style="position: relative; text-align: center;">
+  <img src="./assets/columbia.jpeg" alt="Hospital Image" class="header-image">
+  <div class="header-text">
+    <h1>Patient Case Similarity System</h1>
+    <h2>How can we help You?</h2>
+  </div>
+  <div class="rib">
+    <a href="./mainpage.html">Home</a>
+    <a href="./about.html">About Us</a>
+    <a href="./locateus.html">Find a location</a>
+    <a href="./registrationpage.html">Patient Portal</a>
+  </div>
+</div>
+
+</body>
+</html>
